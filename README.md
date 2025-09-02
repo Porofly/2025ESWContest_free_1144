@@ -1,31 +1,29 @@
-# uwb_simulation
+# 제23회 임베디드 소프트웨어 경진대회 찾아줘드론 소스코드
 
-## Architecture
+## 소개
 
-## How to Install
 
-```
-$ git clone https://github.com/fleshycat/uwb_reconn.git
-$ cd uwb_reconn
-$ colcon build
-```
 
-## How to Run
+## 시스템 구조
 
-```
-# Running a Gazebo World with Anchors and Tags
-$ ros2 launch uwb_sim robot_in_gazebo_world_run.launch.py
-```
+![System Architecture](docs/image-2.png)
 
-```
-# Running UWB localization Node
-$ ros2 run uwb_localization sqrrange_leastsqr_localization.py
-```
+## 소프트웨어 구성
 
-## Shortcut in Vscode
+![Software Architecture](docs/image.png)
 
-```
-Command Palette(Ctrl+Shift+P)
-Tasks:Run Task(Set your desired shortcut keys)
-Select the Model and the World
-```
+## 하드웨어 구성
+
+![Hardware Architecture](docs/image-1.png)
+
+## 활용 오픈소스
+
+### [PX4-AutoPilot](https://github.com/PX4/PX4-Autopilot)
+
+### [Realgazebo](https://github.com/SUV-Lab/RealGazebo-ROS2)
+
+### [카메라 드라이버](https://github.com/SUV-Lab/siyi_sdk)
+
+### [UWB 드라이버](https://github.com/Porofly/nlink_parser_ros2)
+
+### [통신 모듈](https://github.com/SUV-Lab/J-Fi)
