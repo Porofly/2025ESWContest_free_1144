@@ -1,15 +1,3 @@
-[submodule "src/nlink_parser_ros2"]
-	path = src/nlink_parser_ros2
-	url = https://github.com/Porofly/nlink_parser_ros2.git
-	branch = uwb_recon
-[submodule "src/J-Fi"]
-	path = src/J-Fi
-	url = https://github.com/SUV-Lab/J-Fi.git
-	branch = uwb_recon
-[submodule "src/src/siyi_camera"]
-	path = src/src/siyi_camera
-	url = https://github.com/SUV-Lab/siyi-camera-controller.git
-	branch = ESW
 [submodule "src/siyi_camera"]
 	path = src/siyi_camera
 	url = git@github.com:SUV-Lab/siyi-camera-controller.git
