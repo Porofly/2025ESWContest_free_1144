@@ -1,0 +1,59 @@
+#x500.yaml
+model: x500
+units:
+  position: m
+  angle: rad
+  angular_velocity: rad_per_s
+
+motors:
+  # Gazebo: rotor_0_joint  (channel rotor1, input_index=0)
+  - index: 0
+    name: rotor1
+    joint: rotor_0_joint
+    control_type: velocity
+    turning_direction: ccw
+    input_offset: 0.0
+    input_scaling: 1000.0
+    zero_position_disarmed: 0.0
+    zero_position_armed: 100.0
+    max_rot_velocity: 1000.0
+    rotor_velocity_slowdown_sim: 10.0
+
+  # Gazebo: rotor_1_joint  (channel rotor2, input_index=1)
+  - index: 1
+    name: rotor2
+    joint: rotor_1_joint
+    control_type: velocity
+    turning_direction: ccw
+    input_offset: 0.0
+    input_scaling: 1000.0
+    zero_position_disarmed: 0.0
+    zero_position_armed: 100.0
+    max_rot_velocity: 1000.0
+    rotor_velocity_slowdown_sim: 10.0
+
+  # Gazebo: rotor_2_joint  (channel rotor3, input_index=2)
+  - index: 2
+    name: rotor3
+    joint: rotor_2_joint
+    control_type: velocity
+    turning_direction: cw
+    input_offset: 0.0
+    input_scaling: 1000.0
+    zero_position_disarmed: 0.0
+    zero_position_armed: 100.0
+    max_rot_velocity: 1000.0
+    rotor_velocity_slowdown_sim: 10.0
+
+  # Gazebo: rotor_3_joint  (channel rotor4, input_index=3)
+  - index: 3
+    name: rotor4
+    joint: rotor_3_joint
+    control_type: velocity
+    turning_direction: cw
+    input_offset: 0.0
+    input_scaling: 1000.0
+    zero_position_disarmed: 0.0
+    zero_position_armed: 100.0
+    max_rot_velocity: 1000.0
+    rotor_velocity_slowdown_sim: 10.0
