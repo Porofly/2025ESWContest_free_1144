@@ -66,7 +66,7 @@ Compressed Image를 받아 Image Raw로 변환하여 퍼블리시합니다.
 
 ## 실행 예시
 ~~~bash
-# 픽셀 → NED 변환/시각화 노드
+# 이미지 변환 (Compressed → Image Raw)
 ros2 run yolo compressed_to_raw
 ~~~
 
@@ -76,7 +76,7 @@ ros2 run yolobot_recognition yolov8_ros2_pt.py
 ~~~
 
 ~~~bash
-# 픽셀 → NED 변환/시각화 노드
+# 좌표 생성(이미지 픽셀 → NED 변환)
 ros2 run box2pos box2pos_delay
 ~~~
 
