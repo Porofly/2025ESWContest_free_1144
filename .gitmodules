@@ -12,5 +12,5 @@
 	branch = ESW
 [submodule "src/siyi_camera"]
 	path = src/siyi_camera
-	url = https://github.com/SUV-Lab/siyi-camera-controller.git
+	url = git@github.com:SUV-Lab/siyi-camera-controller.git
 	branch = ESW
