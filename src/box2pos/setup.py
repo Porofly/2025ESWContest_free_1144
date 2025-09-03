@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'yolo'
+package_name = 'box2pos'
 
 setup(
     name=package_name,
@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "compressed_to_raw = yolo.compressed_to_raw:main",
+            'box2pos_delay = box2pos.box2pos_delay:main',
         ],
     },
 )

@@ -73,7 +73,7 @@ if __name__ == '__main__':
     executor_thread.start()
     
     rate = yolo_subscriber.create_rate(2)
-    try:
+    try:    
         while rclpy.ok():
             rate.sleep()
     except KeyboardInterrupt:
