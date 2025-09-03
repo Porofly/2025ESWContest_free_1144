@@ -1,1 +1,0 @@
-uwb_msgs/Ranging[] anchors

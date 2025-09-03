@@ -6,3 +6,11 @@
 	path = src/J-Fi
 	url = https://github.com/SUV-Lab/J-Fi.git
 	branch = uwb_recon
+[submodule "src/src/siyi_camera"]
+	path = src/src/siyi_camera
+	url = https://github.com/SUV-Lab/siyi-camera-controller.git
+	branch = ESW
+[submodule "src/siyi_camera"]
+	path = src/siyi_camera
+	url = https://github.com/SUV-Lab/siyi-camera-controller.git
+	branch = ESW
